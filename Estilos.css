@@ -1,0 +1,95 @@
+/* CSS Document */
+
+.Titulo{
+	text-align: center;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.Formulario{
+	
+	margin:  20px auto;
+	max-width: 400px;
+	width: 100%;
+	background-color:white;
+	border-radius: 10px;
+	padding: 40px;
+}
+main{
+	margin: 120px auto;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to bottom, #68EACC 0%,#497BE8 100%)
+}
+.Formulario .Añadir{
+	display: flex;
+	height: 45px;
+	width: 100%;
+	margin: 20px 0px;
+}
+.Formulario .Añadir input{
+	width: 85%;
+	height:95%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+.Añadir button{
+	width: 60px;
+	height: 100%;
+	border: none;
+	outline: none;
+	background:green;
+	color: aliceblue;
+	border-radius: 3px;
+	margin-left: 5px;
+	font-size: 40px;
+	border-radius: 100px
+	
+}
+
+.Formulario li {
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	background: #f2f2f2;
+	font-size: 20px;
+}
+
+.Formulario .borrar{
+	position: absolute;
+	margin: 15px auto;
+	font-size: 20px;
+	right: 0px;
+	background: #D9161A;
+	color: #fff;
+	width: 50px;
+	text-align: center;
+	border-radius: 0 3px 3px 0;
+	cursor: default;
+	overflow: hidden;
+	border-radius: 30px;
+	
+}
+
+.eliminar-hechas{
+	text-align: center;
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+
+}
+.borrar-todo{
+	background: #D9161A;
+	color: #fff;
+	border-radius: 30px;
+	
+}
