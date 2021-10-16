@@ -1,22 +1,3 @@
-/* CSS Document */
-
-.Titulo{
-	text-align: center;
-	background-color: white;
-	margin-left: 600px;
-	margin-right: 600px;
-	border-radius: 5px;
-	padding: 20px;
-}
-.Formulario{
-	
-	margin:  20px auto;
-	max-width: 400px;
-	width: 100%;
-	background-color:white;
-	border-radius: 10px;
-	padding: 40px;
-}
 main{
 	margin: 120px auto;
 }
@@ -25,13 +6,42 @@ body{
 	width: 100%;
 	background: linear-gradient(to bottom, #68EACC 0%,#497BE8 100%)
 }
-.Formulario .Añadir{
+
+.Titulo{
+	text-align: center;
+	background-color: white;
+	margin: auto 600px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.Formulario{
+	margin:  20px auto;
+	max-width: 400px;
+	width: 100%;
+	background-color:white;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+.Añadir{
 	display: flex;
 	height: 45px;
 	width: 100%;
 	margin: 20px 0px;
 }
-.Formulario .Añadir input{
+.add{
+	width: 60px;
+	height: 100%;
+	border: none;
+	outline: none;
+	background:green;
+	color: aliceblue;
+	margin-left: 5px;
+	font-size: 40px;
+	border-radius: 200px
+}
+.texto-entrada{
 	width: 85%;
 	height:95%;
 	border: 1px solid #ccc;
@@ -39,44 +49,29 @@ body{
 	padding-left: 15px;
 	font-size: 20px;
 }
-
-.Añadir button{
-	width: 60px;
-	height: 100%;
-	border: none;
-	outline: none;
-	background:green;
-	color: aliceblue;
-	border-radius: 3px;
-	margin-left: 5px;
-	font-size: 40px;
-	border-radius: 100px
-	
-}
-
-.Formulario li {
+.lli {
 	list-style: none;
 	height: 50px;
 	line-height: 50px;
 	position: relative;
 	background: #f2f2f2;
 	font-size: 20px;
+	border-radius: 15px;
 }
 
-.Formulario .borrar{
+.borrar{
 	position: absolute;
-	margin: 15px auto;
+	padding: 6px;
+	margin: 5px auto;
 	font-size: 20px;
 	right: 0px;
 	background: #D9161A;
 	color: #fff;
 	width: 50px;
 	text-align: center;
-	border-radius: 0 3px 3px 0;
 	cursor: default;
 	overflow: hidden;
-	border-radius: 30px;
-	
+	border-radius: 40px;
 }
 
 .eliminar-hechas{
@@ -87,9 +82,18 @@ body{
 	position: relative;
 
 }
+
 .borrar-todo{
 	background: #D9161A;
 	color: #fff;
 	border-radius: 30px;
-	
+}
+
+.verificar:checked + .texto{
+text-decoration: line-through; color: red;
+}
+
+.Alerta{
+	color: white;
+	text-align: center;
 }
